@@ -16,3 +16,5 @@
 @import "components/cards.css";
 @import "components/social.css";
 
+/* Media Queries */
+@import "media-queries.css";
