@@ -11,30 +11,6 @@
     transition: transform 0.35s ease;
 }
 
-/* Neon border */
-.popular-card::before,
-.story-card::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 16px;
-    padding: 2px;
-
-    background: linear-gradient(
-            90deg,
-            transparent,
-            currentColor,
-            transparent
-    );
-
-    opacity: 0;
-    filter: blur(6px);
-    pointer-events: none;
-
-    background-size: 200% 100%;
-    transition: opacity 0.3s ease;
-}
-
 .popular-card:hover,
 .story-card:hover {
     box-shadow: 0 0 30px rgba(255, 60, 60, 0.8);
