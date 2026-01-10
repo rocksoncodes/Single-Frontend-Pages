@@ -30,7 +30,7 @@ Highlights:
 * Clear navigation
 * Immediate visual context for the manga
 
-![Dandadan Webpage Screenshot](Anime-Frontend-WebPages/Dandadan-Frontend-WebPage/docs/doc-images/heroes.png)
+![Dandadan Webpage Screenshot](./doc-images/heroes.png)
 
 ## Character Section
 The Characters section showcases the main cast of Dandadan.
@@ -40,7 +40,7 @@ Focuses on:
 * Visual hierarchy with names and descriptions
 * Modular styling for reusability
 
-![Dandadan Webpage Screenshot](Anime-Frontend-WebPages/Dandadan-Frontend-WebPage/docs/doc-images/characters.png)
+![Dandadan Webpage Screenshot](./doc-images/characters.png)
 
 ## Episode Section
 The Episodes section presents individual episodes in a clean, grid-style layout.
@@ -50,7 +50,7 @@ Emphasizes:
 * Hover effects for interactive feedback
 * Consistent typography and spacing
 
-![Dandadan Webpage Screenshot](Anime-Frontend-WebPages/Dandadan-Frontend-WebPage/docs/doc-images/episodes.png)
+![Dandadan Webpage Screenshot](./doc-images/mangaka.png)
 
 ## Manga Section
 The Manga section highlights story arcs and important plot points.
@@ -60,5 +60,5 @@ Includes:
 * Clear separation of story sections
 * Easy navigation through multiple arcs
 
-![Dandadan Webpage Screenshot](Anime-Frontend-WebPages/Dandadan-Frontend-WebPage/docs/doc-images/mangaka.png)
+![Dandadan Webpage Screenshot](./doc-images/episodes.png)
 
