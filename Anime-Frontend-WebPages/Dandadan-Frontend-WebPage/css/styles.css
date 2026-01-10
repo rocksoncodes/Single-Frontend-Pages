@@ -12,12 +12,42 @@
 }
 
 body {
+    background-color: #000000;
+    color: #FFFFFF;
     margin: 0;
-    padding: 0;
+    padding: 240px 0 0 0 ;
     display: flex;
     scroll-behavior: smooth;
     overscroll-behavior: none;
     flex-direction: column;
-    gap: 6rem;
+    gap: 8rem;
+    font-family: "Inter", sans-serif;
+    line-height: 1.2;
+}
+
+p {
+    color: #cacaca;
+    font-size: 18px;
+}
+
+span{
+    background: linear-gradient(90deg, #d0d0d0, #a0a0a0, #c0c0c0, #e0e0e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 12px 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background: #FFFFFF;
+    color: #000000;
 }
 

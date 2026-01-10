@@ -1,13 +1,9 @@
-.hero-section {
-    padding: 24px;
-    font-family: Inter, sans-serif;
-}
-
 .hero-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    height: fit-content;
     align-items: center;
-    gap: 32px;
+    column-gap: 48px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -28,15 +24,6 @@
 
 .hero-elements p {
     margin: 0;
-    font-size: 18px;
-}
-
-.hero-elements button {
-    border: none;
-    background-color: black;
-    color: white;
-    padding: 16px 32px;
-    border-radius: 8px;
     font-size: 18px;
 }
 

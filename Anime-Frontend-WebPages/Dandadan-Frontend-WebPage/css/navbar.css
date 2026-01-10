@@ -1,15 +1,18 @@
 .header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
     display: flex;
     justify-content: space-between;
-    padding: 12px;
-    font-family: Inter, sans-serif;
-    color: black;
-    margin-right: 32px;
-    margin-left: 32px;
-    /*position: fixed;*/
-    /*top: 0;*/
-    /*right: 0;*/
-    /*left: 0;*/
+    align-items: center;
+    padding: 12px 32px;
+    font-family: 'Inter', sans-serif;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .header-container nav ul {
@@ -17,19 +20,16 @@
     display: flex;
     gap: 24px;
     padding: 0;
+    margin: 0;
 }
 
 .header-container a {
     text-decoration: none;
-    color: black;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
 }
 
-.header-container button {
-    border: none;
-    border-radius: 8px;
-    padding: 8px 16px;
-    font-weight: 700;
-    background-color: black;
-    color: white;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+.header-container a:hover {
+    color: rgba(255, 255, 255, 0.7);
 }
