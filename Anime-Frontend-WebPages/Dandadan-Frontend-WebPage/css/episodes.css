@@ -1,20 +1,17 @@
-/* Episodes Section */
 .episodes-section {
     font-family: 'Inter', sans-serif;
     padding: 60px 24px;
-    background-color: #000; /* black background */
+    background-color: #000;
     color: #fff;
 }
 
-/* Section Title */
 .episodes-section h2 {
     text-align: center;
-    margin: 24px 0 48px;
+    margin: 24px 0 89px;
     font-size: 64px;
     color: #fff;
 }
 
-/* Episode Card Container Grid */
 .episode-card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -24,22 +21,8 @@
     max-width: 1400px;
 }
 
-/* Glassy Episode Card */
 .episode-card {
-    background: rgba(255, 255, 255, 0.05);   /* very transparent white */
-    backdrop-filter: blur(10px);              /* frosted glass effect */
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    padding: 24px;
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.episode-card:hover {
-    transform: translateY(-30px);
-    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.1);
+   text-align: center;
 }
 
 .episode-card img {
