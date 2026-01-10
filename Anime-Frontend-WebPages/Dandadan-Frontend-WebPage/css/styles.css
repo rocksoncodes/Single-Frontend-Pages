@@ -14,15 +14,10 @@
 body {
     margin: 0;
     padding: 0;
+    display: flex;
+    scroll-behavior: smooth;
+    overscroll-behavior: none;
+    flex-direction: column;
+    gap: 6rem;
 }
 
-.header-container,
-.hero-section,
-.about-section,
-.character-section,
-.episode-section,
-.manga-section,
-.conclusion-section,
-.footer-container {
-    border-style: solid;
-}

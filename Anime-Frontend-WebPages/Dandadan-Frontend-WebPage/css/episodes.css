@@ -1,8 +1,6 @@
-/*
-================
-EPISODES STYLES
-================
-*/
+.episodes-section {
+    font-family: Inter, sans-serif;
+}
 
 .episode-card-container {
     display: grid;
@@ -13,10 +11,29 @@ EPISODES STYLES
     max-width: 1400px;
 }
 
+.episode-card-container button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
 .episodes-section h2 {
     text-align: center;
     margin: 24px 0;
+    font-size: 54px;
 }
+
+.episodes-section h3 {
+    font-size: 24px;
+}
+
+.episodes-section p {
+    font-size: 18px;
+}
+
 
 .episode-card {
     border-style: solid;

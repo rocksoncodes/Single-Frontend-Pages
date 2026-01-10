@@ -1,39 +1,43 @@
-/*
-====================
-HERO-SECTION STYLES
-====================
-*/
-
 .hero-section {
     padding: 24px;
+    font-family: Inter, sans-serif;
 }
 
 .hero-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
     gap: 32px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .hero-elements {
-    border-style: solid;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
-    max-width: 520px;
+    gap: 32px;
+    width: auto;
+    height: auto;
 }
 
-.hero-elements h1,
+.hero-elements h1 {
+    margin: 0;
+    font-size: 64px;
+}
+
 .hero-elements p {
     margin: 0;
+    font-size: 18px;
 }
 
 .hero-elements button {
-    margin-top: 8px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 18px;
 }
 
 .hero-image img {
