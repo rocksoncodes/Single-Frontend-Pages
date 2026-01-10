@@ -1,6 +1,6 @@
 # Dandadan WebPage Notes
 
-This project is a static landing page inspired by the manga **Dandadan**.  
+This project is a static landing page inspired by the manga **DANDADAN**.  
 The goal was to practice **clean layout, modular CSS architecture and scalable front-end structure** while building a visually appealing anime-style site.
 
 This site prioritizes:
