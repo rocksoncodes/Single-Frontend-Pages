@@ -19,10 +19,7 @@ This site prioritizes:
 - HTML5 (semantic sections)
 - CSS3 (modular architecture)
 
-# CSS Architecture
-The CSS is organized into logical modules for clarity and maintainability, with each module focusing on a specific section of the webpage.
-
-## Hero Section
+# Hero Section
 The hero section introduces the site with a prominent banner featuring key visuals from Dandadan.
 
 Highlights:
@@ -32,7 +29,7 @@ Highlights:
 
 ![Dandadan Webpage Screenshot](docs/doc-images/heroes.png)
 
-## Character Section
+# Character Section
 The Characters section showcases the main cast of Dandadan.
 
 Focuses on:
@@ -42,7 +39,7 @@ Focuses on:
 
 ![Dandadan Webpage Screenshot](docs/doc-images/characters.png)
 
-## Episode Section
+# Episode Section
 The Episodes section presents individual episodes in a clean, grid-style layout.
 
 Emphasizes:
@@ -50,9 +47,9 @@ Emphasizes:
 * Hover effects for interactive feedback
 * Consistent typography and spacing
 
-![Dandadan Webpage Screenshot](docs/doc-images/mangaka.png)
+![Dandadan Webpage Screenshot](docs/doc-images/episodes.png)
 
-## Manga Section
+# Manga Section
 The Manga section highlights story arcs and important plot points.
 
 Includes:
@@ -60,5 +57,5 @@ Includes:
 * Clear separation of story sections
 * Easy navigation through multiple arcs
 
-![Dandadan Webpage Screenshot](docs/doc-images/episodes.png)
+![Dandadan Webpage Screenshot](docs/doc-images/mangaka.png)
 
