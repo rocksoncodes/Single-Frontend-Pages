@@ -1,16 +1,29 @@
-/*
-====================
-MANGA-SECTION STYLES
-====================
-*/
+.manga-section {
+    font-family: Inter, sans-serif;
+}
+
+.manga-section h2 {
+   font-size: 54px;
+}
+
 
 .manga-card-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
     gap: 24px;
     padding: 24px;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1500px;
+}
+
+.manga-card-container button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 18px;
 }
 
 .manga-card {

@@ -1,9 +1,16 @@
-/*
-====================
-ABOUT-SECTION STYLES
-====================
-*/
 .about-section {
     padding: 24px;
     text-align: center;
+    font-family: Inter, sans-serif;
+}
+
+.about-section h2 {
+    font-size: 54px;
+}
+
+.about-section p {
+    font-size: 18px;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
