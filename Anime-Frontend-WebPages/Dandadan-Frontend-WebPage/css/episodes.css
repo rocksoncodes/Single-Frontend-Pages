@@ -1,51 +1,62 @@
+/* Episodes Section */
 .episodes-section {
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', sans-serif;
+    padding: 60px 24px;
+    background-color: #000; /* black background */
+    color: #fff;
 }
 
+/* Section Title */
+.episodes-section h2 {
+    text-align: center;
+    margin: 24px 0 48px;
+    font-size: 64px;
+    color: #fff;
+}
+
+/* Episode Card Container Grid */
 .episode-card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 24px;
-    padding: 24px;
+    padding: 0 24px;
     margin: 0 auto;
     max-width: 1400px;
 }
 
-.episode-card-container button {
-    border: none;
-    background-color: black;
-    color: white;
-    padding: 16px 32px;
-    border-radius: 8px;
-    font-size: 18px;
-}
-
-.episodes-section h2 {
-    text-align: center;
-    margin: 24px 0 32px;
-    font-size: 64px;
-}
-
-.episodes-section h3 {
-    font-size: 24px;
-}
-
-.episodes-section p {
-    font-size: 18px;
-}
-
-
+/* Glassy Episode Card */
 .episode-card {
-    border-style: solid;
+    background: rgba(255, 255, 255, 0.05);   /* very transparent white */
+    backdrop-filter: blur(10px);              /* frosted glass effect */
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     padding: 24px;
     display: flex;
     flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.episode-card:hover {
+    transform: translateY(-30px);
+    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.1);
 }
 
 .episode-card img {
-    aspect-ratio: 4 / 3;
     width: 100%;
     border-radius: 12px;
     object-fit: cover;
+    margin-bottom: 16px;
+    aspect-ratio: 4 / 3;
+}
+
+.episodes-section h3 {
+    font-size: 24px;
+    margin: 12px 0 8px;
+    color: #fff;
+}
+
+.episodes-section p {
+    font-size: 18px;
+    line-height: 1.5;
 }

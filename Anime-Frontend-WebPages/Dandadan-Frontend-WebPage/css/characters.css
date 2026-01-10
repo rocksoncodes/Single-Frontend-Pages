@@ -30,7 +30,7 @@
     max-width: 240px;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
-    border: 6px solid black;
+    border: 3px solid #6e6d6d;
     object-fit: cover;
     display: block;
     margin: 0 auto;

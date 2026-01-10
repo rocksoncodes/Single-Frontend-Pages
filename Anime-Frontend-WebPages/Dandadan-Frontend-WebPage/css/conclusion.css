@@ -14,12 +14,3 @@
 .conclusion-section p {
     font-size: 18px;
 }
-
-.conclusion-section button {
-    border: none;
-    background-color: black;
-    color: white;
-    padding: 16px 32px;
-    border-radius: 8px;
-    font-size: 18px;
-}
