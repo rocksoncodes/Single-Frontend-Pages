@@ -1,0 +1,23 @@
+@import "components/navbar-component/navbar-component.css";
+@import "components/hero-component/hero-component.css";
+@import "components/showcase-component/showcase-component.css";
+@import "components/popular-component/popular-component.css";
+@import "components/manga-component/manga-component.css";
+@import "components/character-component/character-component.css";
+@import "components/review-component/review-component.css";
+@import "components/conclusion-component/conclusion-component.css";
+@import "components/footer-component/footer-component.css";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 32px;
+    gap: 120px;
+}
