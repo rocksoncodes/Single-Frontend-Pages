@@ -1,0 +1,34 @@
+.review-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.review-content {
+    text-align: center;
+}
+
+.review-cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.review-card {
+    border: 2px black solid;
+    border-radius: 12px;
+    padding: 2rem;
+}
+
+.review-profile {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.review-profile img {
+    height: 5vh;
+    border-radius: 50%;
+}

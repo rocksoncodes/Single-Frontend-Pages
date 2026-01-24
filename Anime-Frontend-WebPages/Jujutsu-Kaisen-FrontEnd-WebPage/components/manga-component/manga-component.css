@@ -1,0 +1,41 @@
+.manga-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.manga-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.manga-shack-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: space-evenly;
+    height: fit-content;
+    gap: 2rem;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.manga-shack-section img {
+    width: 100%;
+    height: 100vh;
+    border-radius: 12px;
+}
+
+.manga-highlights {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.2;
+    gap: 1rem;
+}
+
+.manga-highlights ul {
+    list-style: none;
+}
