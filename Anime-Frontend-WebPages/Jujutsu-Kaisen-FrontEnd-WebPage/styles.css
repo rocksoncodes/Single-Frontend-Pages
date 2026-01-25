@@ -1,5 +1,6 @@
 @import "components/navbar-component.css";
 @import "components/hero-component.css";
+@import "components/social-component.css";
 @import "components/showcase-component.css";
 @import "components/popular-component.css";
 @import "components/manga-component.css";
@@ -19,6 +20,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 32px;
-    gap: 120px;
+    gap: 180px;
     font-family: "Segoe UI", sans-serif;
 }

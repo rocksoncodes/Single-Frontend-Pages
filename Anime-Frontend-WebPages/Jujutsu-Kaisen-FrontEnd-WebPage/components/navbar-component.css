@@ -7,11 +7,11 @@ nav {
     padding: 0 1.2rem;
     border-radius: 32px;
     box-shadow: 2px 6px 18px rgba(110, 109, 109, 0.65);
-    width: 80%;
+    width: 70%;
 }
 
 .logo span {
-    padding: 1rem 0;
+    padding: 2rem 0;
     color: white;
     font-weight: bold;
 }
@@ -42,7 +42,7 @@ nav a:hover {
     background: white;
     color: rgba(0, 0, 0, 0.85);
     border: none;
-    padding: 8px 16px;
+    padding: 12px 24px;
     border-radius: 24px;
     cursor: pointer;
 }

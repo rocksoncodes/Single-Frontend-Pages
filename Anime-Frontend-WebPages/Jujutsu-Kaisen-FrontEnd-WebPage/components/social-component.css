@@ -1,0 +1,25 @@
+.social-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.social-header {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1.5rem;
+}
+
+.social-tagline h3 {
+    font-size: 4rem;
+}
+
+.social-tagline p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: rgba(51, 51, 51, 0.65);
+}
+
+.social-content {
+    display: flex;
+    justify-content: space-between;
+}
