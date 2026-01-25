@@ -1,11 +1,11 @@
-@import "navbar.css";
-@import "hero.css";
-@import "about.css";
-@import "characters.css";
-@import "episodes.css";
-@import "manga.css";
-@import "conclusion.css";
-@import "footer.css";
+@import "navbar-component.css";
+@import "hero-component.css";
+@import "about-component.css";
+@import "characters-component.css";
+@import "episodes-component.css";
+@import "manga-component.css";
+@import "conclusion-component.css";
+@import "footer-component.css";
 
 * {
     box-sizing: border-box;
