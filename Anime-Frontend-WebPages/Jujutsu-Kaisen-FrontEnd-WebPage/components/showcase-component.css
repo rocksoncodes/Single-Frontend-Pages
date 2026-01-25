@@ -13,10 +13,26 @@
     align-items: center;
 }
 
+.showcase-content h1 {
+   font-size: 4rem;
+    width: 65%;
+}
+
+.showcase-content i {
+    color: #ce0915;
+}
+
+.showcase-content p {
+    color: rgba(51, 51, 51, 0.65);
+    line-height: 1.6;
+}
+
 .showcase-gif img {
     width: 100%;
     max-width: 800px;
     height: auto;
     margin: 0 auto;
     border-radius: 12px;
+    border: 4px solid #dc0e1b;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
