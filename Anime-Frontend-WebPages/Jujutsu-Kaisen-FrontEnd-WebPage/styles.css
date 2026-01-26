@@ -2,12 +2,8 @@
 @import "components/hero-component.css";
 @import "components/social-component.css";
 @import "components/showcase-component.css";
-@import "components/popular-component.css";
 @import "components/manga-component.css";
 @import "components/character-component.css";
-@import "components/review-component.css";
-@import "components/conclusion-component.css";
-@import "components/footer-component.css";
 
 
 * {
